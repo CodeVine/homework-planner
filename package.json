@@ -14,7 +14,8 @@
     "homework",
     "planner",
     "Angular",
-    "Gordon College"
+    "Gordon College",
+    "Web App"
   ],
   "scripts": {
     "test": "grunt test"
