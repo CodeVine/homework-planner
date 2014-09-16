@@ -14,8 +14,8 @@ notifications:
     on_success: always
 env:
   global:
-    - secure: RUlUMo595afma7TinBWQrT0lwN/WRN8+BbMik2UGJzi9sO7hqpau7Qbw9twsY/S9GNuMc8nJ+Mosg6j4Pxh/C4KLnYTG8H4vuwKkbNnGp6l2jJAkrmPk8a2VtRFoZnz2x0ZectETjzljnKmHdaX6TxvHY7SaFVOYaCiLFIeDbFQ=
-    - secure: V3r4lh9I6jFWLep0J5I02zpjGda5JgH6tOFEuCG2O3bjmVMaOyzx2upy5gErYMpQ0lCEILJM20g89PQqLIQTh/LpsO7HW3xGL85oYYU1ySpdNuUtIMNiX49PnJ7sLk3etUmBBRqb8b8mPANJBkjoKd6nQUH8NNF39F5Z5FUw3B4=
+    - SAUCE_USERNAME=codevine
+    - SAUCE_ACCESS_KEY=6145a59e-8d0e-45d3-94ff-dec50b4085a3
 addons:
   sauce_connect: true
   hosts:
