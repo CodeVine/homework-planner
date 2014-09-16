@@ -14,8 +14,8 @@ notifications:
     on_success: always
 env:
   global:
-    - secure: RUlUMo595afma7TinBWQrT0lwN/WRN8+BbMik2UGJzi9sO7hqpau7Qbw9twsY/S9GNuMc8nJ+Mosg6j4Pxh/C4KLnYTG8H4vuwKkbNnGp6l2jJAkrmPk8a2VtRFoZnz2x0ZectETjzljnKmHdaX6TxvHY7SaFVOYaCiLFIeDbFQ=
-    - secure: V3r4lh9I6jFWLep0J5I02zpjGda5JgH6tOFEuCG2O3bjmVMaOyzx2upy5gErYMpQ0lCEILJM20g89PQqLIQTh/LpsO7HW3xGL85oYYU1ySpdNuUtIMNiX49PnJ7sLk3etUmBBRqb8b8mPANJBkjoKd6nQUH8NNF39F5Z5FUw3B4=
+    - secure: hahPiGA5cuaAskTcKIs5M8ZurgWABtz5oxl2WrO6GJiN8/7acKjTs66gUj3dK8kPt2STh27b/DK4ZRRZ22GWBS2tnh2USIOvxR5P35T4QUSh7k2N4MRhaPSjKm7NDb0nKD09MPqzuh3yb1RJGPZL2vmCCvv91XhELmd/3NxzBNk=
+    - secure: AyuwjpHL1LEbW1t3HXPosEVwWeBfMCZQR+UPsIA11UO5ehhS7DfBkxRlE5egw7r2daqWVYHVaBGSvDErIZl/LROMfpQNE9rP0HkpkKOXyl8NkKoxbqaKA4rIjRcipAdbzGDkLNvvp2pynAM10x41bs6umODs/usuFX3EWVgoiNo=
 addons:
   sauce_connect: true
   hosts:
