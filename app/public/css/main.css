@@ -1,0 +1,56 @@
+body,html{
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+	background-image: url("http://www.gordon.edu/livesworthleading/images/aerialbig.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+}
+
+body{display:table}
+
+/*element selector*/
+hgroup{display:table-cell;
+	position: fixed;
+	top: 0; left: 0; right: 0; bottom: 0;
+	width: 450px; height: 230px;
+	padding: 25px; margin: auto;
+	border-radius: 5px;
+	background: white;
+	display: table;
+	box-shadow: 0 0 0 9999px rgba(#000,.5);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
+	color: #333;
+	line-height: normal;
+	font-smooth: always;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/*class selector*/
+.form-control {
+  display: block;
+  width: 420px;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+hgroup h1{font-size:2em}
+hgroup h2{
+	font-size:1.5em;
+	-webkit-margin-after: 0;
+}
