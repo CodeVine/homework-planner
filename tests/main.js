@@ -74,12 +74,17 @@ describe(desired.browserName, function() {
             .nodeify(done);
     });
 
-    it("should get correct h1", function(done) {
+    it("should get username box", function(done) {
         browser
             .get("localhost:5672")
-            .elementByTagName("h1")
-            .text()
-            .should.eventually.include('Hello World')
+            .elementById("username")
+            .nodeify(done);
+    });
+
+    it("should get password box", function(done) {
+        browser
+            .get("localhost:5672")
+            .elementById("password")
             .nodeify(done);
     });
 });
