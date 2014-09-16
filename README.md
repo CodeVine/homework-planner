@@ -1,7 +1,7 @@
 Homework Planner
 ================
 
-[![Build Status](https://travis-ci.org/codevine/homework-planner.svg?branch=master)](https://travis-ci.org/codevine/homework-planner)  [![Dependency Status](https://david-dm.org/codevine/homework-planner.svg)](https://david-dm.org/codevine/homework-planner)  [![devDependency Status](https://david-dm.org/codevine/homework-planner/dev-status.svg)](https://david-dm.org/codevine/homework-planner#info=devDependencies)
+[![Build Status](https://travis-ci.org/CodeVine/homework-planner.svg?branch=master)](https://travis-ci.org/CodeVine/homework-planner)  [![Dependency Status](https://david-dm.org/CodeVine/homework-planner.svg)](https://david-dm.org/CodeVine/homework-planner)  [![devDependency Status](https://david-dm.org/CodeVine/homework-planner/dev-status.svg)](https://david-dm.org/CodeVine/homework-planner#info=devDependencies)
 
 This is a homework planning app for the students of Gordon College. 
 
