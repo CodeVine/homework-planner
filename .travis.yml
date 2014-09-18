@@ -2,11 +2,6 @@ language: node_js
 node_js:
   - "0.10"
 notifications:
-  email:
-    recipients:
-      - emerson@emersonveenstra.net
-    on_success: always
-    on_failure: always
   webhooks:
     urls:
       - http://webhooks.testing2.emersonveenstra.net/webhook
@@ -17,16 +12,14 @@ env:
     - SAUCE_USERNAME=codevine
     - SAUCE_ACCESS_KEY=6145a59e-8d0e-45d3-94ff-dec50b4085a3
 before_install:
+  - curl https://gist.githubusercontent.com/emersonveenstra/65e92a0726fd63821447/raw/2c4c545bd6a6cfb47b8726e451d52ed8ba6502aa/sauce-connect.sh | bash
   - npm install -g forever
   - npm install -g grunt-cli
 before_script:
   - forever start app.js
   - sleep 5
   - forever logs 0
-  - ping -c 1 testing2.emersonveenstra.net
-  - curl localhost:5672
 after_success:
   - forever stopall
 after_failure:
-  - curl localhost:5672
   - forever logs 0
