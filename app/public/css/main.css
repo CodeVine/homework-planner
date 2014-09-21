@@ -12,14 +12,13 @@ body,html{
 body{display:table}
 
 /*element selector*/
-hgroup{display:table-cell;
+hgroup{
 	position: fixed;
 	top: 0; left: 0; right: 0; bottom: 0;
 	width: 450px; height: 230px;
 	padding: 25px; margin: auto;
 	border-radius: 5px;
 	background: white;
-	display: table;
 	box-shadow: 0 0 0 9999px rgba(0, 0, 0, .5);
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12pt;
