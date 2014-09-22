@@ -20,7 +20,7 @@ hgroup{display:table-cell;
 	border-radius: 5px;
 	background: white;
 	display: table;
-	box-shadow: 0 0 0 9999px rgba(#000,.5);
+	box-shadow: 0 0 0 9999px rgba(0,0,0,.5);
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12pt;
 	color: #333;
